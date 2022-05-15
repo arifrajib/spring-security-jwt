@@ -59,3 +59,8 @@ $ open http://localhost:8080
 
 * Step 7: On successful authentication, inside the **SecurityContextHolder** the **SecurityContext** is updated with the details of the current authenticated user. *SecurityContext* can be used in several parts of the app to check whether any user is currently authenticated and if so, what are the user’s details.
 
+
+
+## License
+
+This repository is open-sourced software licensed under the [MIT license](http://opensource.org/licenses/MIT)
