@@ -4,6 +4,21 @@ Spring Security JWT token based authentication
 Demonstrating how to implement JWT Authentication in Spring Boot Application using Spring Security  
 
 
+## Run project
+
+```
+$ git clone https://github.com/arifrajib/spring-security-jwt.git
+$ cd spring-security-jwt/
+$ ./mvnw spring-boot:run
+```
+
+## Usages
+
+1. **Register User** : */api/auth/register* 
+2. **Login** : */api/auth/login*
+3. **User details** : */api/user/details*
+
+
 ## Project dependency
 
 * spring-boot-starter-web 
@@ -13,17 +28,6 @@ Demonstrating how to implement JWT Authentication in Spring Boot Application usi
 * spring-boot-devtools
 * lombok
 * java-jwt
-
-
-## Usage
-
-```
-$ git clone https://github.com/arifrajib/spring-security-jwt.git
-$ cd spring-security-jwt/
-$ ./mvnw spring-boot:run
-$ open http://localhost:8080
-
-```
 
 
 ## Behind the Scenes: Theory
